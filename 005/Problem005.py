@@ -1,3 +1,13 @@
+''' 
+  * Problem005.py
+  *
+  * Project Euler: Problem 5
+  * 
+  * Problem: Find the smallest positive number that is 
+  * evenly divisible by all of the numbers from 1 to 20.      
+  *
+'''
+
 import time
 start_time = time.time()
 
