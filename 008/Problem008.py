@@ -33,13 +33,6 @@ str = "73167176531330624919225119674426574742355349194934"\
         +"05886116467109405077541002256983155200055935729725"\
         +"71636269561882670428252483600823257530420752963450"
 
-highest = 1
-
-for digit in xrange(len(str)-13):
-    templist = [int(i) for i in str[digit:digit+13]]
-    temp = reduce(lambda a,b: a*b, templist)
-    if temp > highest: highest = temp
-
-print highest
+print max([reduce(lambda a,b: a*b, [int(c) for c in str[i:i+13]]) for i in xrange(len(str)-13)])
 
 print("--- %s seconds ---" % (time.time() - start_time))
