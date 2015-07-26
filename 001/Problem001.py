@@ -8,4 +8,11 @@
   *
 '''
 
-print sum(filter(lambda x: x % 3 == 0 or x % 5 == 0, xrange(1,1000)));
+import time
+start_time = time.time()
+
+# print sum(filter(lambda x: x % 3 == 0 or x % 5 == 0, xrange(1,1000))) // slower, brute-force approach
+
+print sum(x for x in xrange(0,1000000,3)) + sum(x for x in xrange(0,1000000,5))
+
+print("--- %s seconds ---" % (time.time() - start_time))
