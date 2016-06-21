@@ -11,6 +11,13 @@
 import time
 start_time = time.time()
 
-print sum([x for x in xrange(2,6*9**5) if sum(int(str(x)[i])**5 for i in xrange(len(str(x)))) == x]) 
+def sum_digits_pwr5(num):
+    total = 0
+    while num:
+        total += (num % 10)**5
+        num /= 10
+    return total
+
+print sum(n for n in xrange(2,6*9**5) if n == sum_digits_pwr5(n))
 
 print("--- %s seconds ---" % (time.time() - start_time))
