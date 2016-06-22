@@ -1,11 +1,11 @@
-''' 
+'''
   * Problem023.py
   *
   * Project Euler: Problem 23
-  * 
+  *
   * Problem: Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers.
   *          A number is abundant if the sum of its proper divisors is greater than that number (if lesser: deficient, equals: perfect).
-  *          
+  *
   *
 '''
 
