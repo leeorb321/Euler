@@ -1,10 +1,10 @@
-''' 
+'''
   * Problem004.py
   *
   * Project Euler: Problem 4
-  * 
+  *
   * Problem: Find the largest palindrome made from the product of two 3-digit numbers.
-  *          
+  *
   *
 '''
 import time
@@ -12,7 +12,7 @@ start_time = time.time()
 
 def is_palindrome(n):
     num = str(n)
-    
+
     if len(num) % 2 == 0:
         max = len(num) / 2
     else:
@@ -24,7 +24,7 @@ def is_palindrome(n):
         else:
             pali = False
             break
-    
+
     return pali
 
 for i in xrange(999,899,-1):

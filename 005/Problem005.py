@@ -1,10 +1,10 @@
-''' 
+'''
   * Problem005.py
   *
   * Project Euler: Problem 5
-  * 
-  * Problem: Find the smallest positive number that is 
-  * evenly divisible by all of the numbers from 1 to 20.      
+  *
+  * Problem: Find the smallest positive number that is
+  * evenly divisible by all of the numbers from 1 to 20.
   *
 '''
 
@@ -16,7 +16,7 @@ def is_divisible_to(number, max):
         if number % i != 0:
             return False
     return True
-    
+
 def divisible_to(n):
     if n < 1:
         return False
@@ -30,7 +30,7 @@ def divisible_to(n):
             current_attempt += step
             complete = is_divisible_to(current_attempt,n)
         return current_attempt
-    
+
 print divisible_to(20)
 
 print("--- %s seconds ---" % (time.time() - start_time))

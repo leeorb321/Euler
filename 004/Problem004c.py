@@ -1,10 +1,10 @@
-''' 
+'''
   * Problem004c.py
   *
   * Project Euler: Problem 4
-  * 
+  *
   * Problem: Find the largest palindrome made from the product of two 3-digit numbers.
-  *          
+  *
   *
 '''
 

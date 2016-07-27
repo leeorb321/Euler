@@ -1,8 +1,8 @@
-''' 
+'''
   * Problem027.py
   *
   * Project Euler: Problem 27
-  * 
+  *
   * Problem: Find the product of the coefficients, a and b, for the quadratic expression n^2 + an + b
   * where |a| < 1000 and where |b| < 1000 that produces the maximum number of primes for consecutive values of n, starting with n = 0.
   *

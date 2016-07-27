@@ -1,8 +1,8 @@
-''' 
+'''
   * Problem002.py
   *
   * Project Euler: Problem 2
-  * 
+  *
   * Problem: Find the sum of the even-valued terms
   *          in the Fibonacci sequence under 4 million.
   *

@@ -1,8 +1,8 @@
-''' 
+'''
   * Problem010.py
   *
   * Project Euler: Problem 10
-  * 
+  *
   * Problem: Find the sum of all primes under 2 million.
   *
 '''
