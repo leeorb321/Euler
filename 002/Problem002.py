@@ -8,6 +8,9 @@
   *
 '''
 
+import time
+start_time = time.time()
+
 def sumEvenFib(n):
     sum = 0
     first, second = 0, 1
@@ -17,4 +20,5 @@ def sumEvenFib(n):
             sum += second
     return sum
 
-print sumEvenFib(4000000)
+print(sumEvenFib(4000000))
+print("--- %s seconds ---" % (time.time() - start_time))
